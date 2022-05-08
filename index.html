@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RocketBlog</title>
+    <link rel="stylesheet" href="./src/style/global.css" />
+    <link rel="stylesheet" href="./src/style/header.css" />
+    <link rel="stylesheet" href="./src/style/main.css" />
+    <link rel="stylesheet" href="./src/style/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">The Blog<span style="color: var(--green)">.</span></h1>
+      <nav class="links">
+        <ul>
+          <li>
+            <strong><span style="color: var(--green)">|</span> Home</strong>
+          </li>
+          <li>Sobre</li>
+          <li>Categorias</li>
+          <li>Contato</li>
+        </ul>
+      </nav>
+      <input
+        type="text"
+        id="placeholder-text"
+        name="busca"
+        placeholder="Buscar"
+      />
+      <button type="submit">
+        <img src="./src/images/search.svg" alt="Ícone de busca" />
+      </button>
+    </header>
+
+    <main>
+      <section class="purple-section">
+        <article>
+          <h2>
+            Veja o guia definitivo para conquistar seus objetivos como DEV em
+            2022
+          </h2>
+          <p class="paragraph-white">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+            eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+            sed tristique placerat hac.
+          </p>
+          <div class="more">
+            Veja mais&nbsp;
+            <img
+              src="./src/images/arrow-right.svg"
+              alt="Ícone de flecha para a direita"
+            />
+          </div>
+        </article>
+        <aside>
+          <picture>
+            <img
+              src="./src/images/featured-image.png"
+              alt="Imagem ilustrativa de uma tela com códigos e um gradiente roxo"
+            />
+          </picture>
+        </aside>
+      </section>
+      <section class="white-section">
+        <article>
+          <picture>
+            <img
+              src="./src/images/post-1.png"
+              alt="Imagem de um notebook em um gradiente branco"
+            />
+          </picture>
+          <p class="paragraph-black">Janeiro 04, 2022</p>
+
+          <h3>Começando no ReactJS em 2022</h3>
+          <p class="paragraph-black">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+            eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+            sed tristique nibh nibh eu in aliquet ut adipiscing neque. Sed
+            volutpat aenean sit vitae, sed tristique. Sed volutpat aenean.
+          </p>
+        </article>
+
+        <article class="aside-article">
+          <aside>
+            <p class="paragraph-black">Janeiro 04, 2022</p>
+            <h3 class="h3-aside">
+              Conheça as principais técnicas para conseguir uma vaga
+              internacional em programação
+            </h3>
+            <p class="paragraph-black">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+              eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+              sed tristique.
+            </p>
+            <p class="border"></p>
+          </aside>
+          <aside>
+            <p class="paragraph-black">Janeiro 04, 2022</p>
+            <h3>Veja a evolução do Front-end na prática</h3>
+            <p class="paragraph-black">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+              eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+              sed tristique.
+            </p>
+          </aside>
+        </article>
+      </section>
+
+      <section class="footer-articles">
+        <article>
+          <figure>
+            <img
+              src="./src/images/post-2.png"
+              alt="Imagem do post: rapaz mexendo em um notebook"
+            />
+          </figure>
+          <p class="paragraph-black">Janeiro 04, 2022</p>
+          <h3>10 dicas para conseguir a vaga desejada</h3>
+          <p class="paragraph-black">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+            eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+            sed tristique.
+          </p>
+        </article>
+        <article>
+          <figure>
+            <img
+              src="./src/images/post-3.png"
+              alt="Imagem do post: tela de um editor de código"
+            />
+          </figure>
+          <p class="paragraph-black">Janeiro 04, 2022</p>
+          <h3>Deixe seu código mais semântico com essas dicas</h3>
+          <p class="paragraph-black">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+            eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+            sed tristique.
+          </p>
+        </article>
+        <article>
+          <figure>
+            <img
+              src="./src/images/post-4.png"
+              alt="Imagem do post: foto de um celular em gradiente roxo"
+            />
+          </figure>
+          <p class="paragraph-black">Janeiro 04, 2022</p>
+          <h3>Use essas dicas nas suas aplicações mobile</h3>
+          <p class="paragraph-black">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+            eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+            sed tristique.
+          </p>
+        </article>
+      </section>
+      <p class="paragraph-black footer-main">
+        Layout ® Rocketseat. Código feito com 💖 por Ane. :)
+      </p>
+    </main>
+
+    <footer>
+      <nav class="responsive-links">
+        <ul>
+          <li>
+            <strong>Home</strong>
+          </li>
+          <li>Sobre</li>
+          <li>Categorias</li>
+          <li>Contato</li>
+        </ul>
+      </nav>
+      <p>Layout ® Rocketseat. Código feito com 💖 por Ane. :)</p>
+    </footer>
+  </body>
+</html>

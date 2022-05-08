@@ -1,0 +1,39 @@
+@media screen and (min-width: 768px) {
+  footer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    width: 100%;
+    height: fit-content;
+    background-color: var(--dark-bg);
+  }
+
+  .responsive-links li {
+    list-style: none;
+    display: inline;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    padding-top: 20px;
+  }
+
+  .responsive-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  footer p {
+    color: var(--light-purple);
+    text-align: center;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 21px;
+  }
+}
