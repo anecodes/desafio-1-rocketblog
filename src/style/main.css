@@ -5,10 +5,10 @@ main {
 .purple-section {
   background-color: var(--purple-bg);
   width: 100%;
-  padding: 10px;
   display: flex;
   flex-direction: row;
   border-bottom: 6px solid var(--green);
+  padding-bottom: 50px;
 }
 
 .purple-section p {
